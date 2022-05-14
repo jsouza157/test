@@ -1,0 +1,33 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "TINNOVA",
+      "description": "API de veículos com swagger",
+      "version": "1.0"
+    },
+    "host": "localhost:3000",
+    "basePath": "/",
+    "schemes": [
+      "http"
+    ],
+    "paths": {
+      "/divisor": {
+        "get": {
+          "description": "",
+          "operationId": "show_numbers_divisor",
+          "responses": {},
+          "parameters": [
+            {
+              "name": "number",
+              "in": "query",
+              "description": "Informe um <code>número</code> para saber seus divisores.",
+              "required": true,
+              "schema" : {
+                "type" : "string"
+              }
+            }
+          ]
+        }
+      }
+    }   
+}
