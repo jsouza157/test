@@ -11,8 +11,8 @@ terminal.question("Digite um número para saber seus divisores: \n", function(an
     const divisors = executor.divisor();
 
     console.log(`Número de Entrada: ${answer}`);
-    console.log(`Números divisores: ${divisors.dividingNumbers}`);
-    console.log(`Divisores Primos: ${divisors.dividingNumbersPrime}`);
+    console.log(`Números divisores: ${divisors.divisorNumbers}`);
+    console.log(`Divisores Primos: ${divisors.divisorNumbersPrime}`);
     
     terminal.close();
 });
